@@ -3562,6 +3562,8 @@ input, select, textarea {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
 }
 
 .iframe-container iframe {
